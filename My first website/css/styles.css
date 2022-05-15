@@ -1,0 +1,9 @@
+/* Step 1 define the colour pallete of this site. */
+:root{
+    --primrary-color: #2584ff;
+    --secondary-color: #00d9ff;
+    --accent-color: #ff3400;
+    --color-headings: #1b0760;
+    --color-body: #918ca4;
+}
+

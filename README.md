@@ -1,2 +1,0 @@
-# codeon
-mycodetraining

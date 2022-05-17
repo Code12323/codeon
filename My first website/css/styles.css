@@ -250,15 +250,19 @@ so we change the display to
 inline-block */
 
 /* for aligning the icon at the center 
-we change the  */
+we change the inline-block to inline-flex */
+
+/* we use justify content for horizontal alignment */
+/* we use the align items for vertical alignment */
 .icon-container{
-    background: gold;
+    background: #f3f9fa;
     width: 64px;
     height: 64px;
     border-radius: 100%;
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 
 

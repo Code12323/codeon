@@ -196,8 +196,9 @@ we wont be able to give it margin) */
     margin-right: 2rem;
 }
 
-/* the list style image is special code 
-used on svg images. */
+/* the list style image is used to replace
+bullet point icons with images*/
+
 /* just set the list style image to a 
 image and then apply that class to the 
 <ul> and all the decending <li> items 
@@ -207,15 +208,15 @@ will have that image as the bullet point */
 apply it, the ticks are off the screen. */
 .list--tick{
     list-style-image: url(../images/tick.svg);
-padding-left: 3rem;
+    padding-left: 3rem;
 }
 
 /* should we change the padding or the 
 margin?
 experimenting is your friend paul. */
 .list--tick .list__item{
-padding-left: .5rem;
-bottom margin: 1rem;
+padding-left: 0.5rem;
+margin-bottom: 1rem;
 }
  
 /* you might not have a full plan 
@@ -230,5 +231,37 @@ which come across you. */
     }
 }
 
+/* icons */
+.icon{
+    width: 40px;
+    height: 40px;
+}
+
+/* the fill property only applies to 
+svg images*/
+.icon--primary{
+    fill: var(--color-primary);
+}
+
+/* spans are inline elements 
+width and height property does not apply 
+to inline elements.
+so we change the display to 
+inline-block */
+
+/* for aligning the icon at the center 
+we change the  */
+.icon-container{
+    background: gold;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+
+
+
+ 
 
 

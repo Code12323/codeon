@@ -17,10 +17,8 @@ codes */
 }
 
 /* Step 2 define the typography of this site */
-/* 1. define the body text color, h1, h2, h3 
-text color */
-/* 2. define the font-family of the body, and 
-the font-size of the body */
+/* text colour, font-family, font-size 
+of the body, heading elements */
 
 html{
     /* 62.5% of 16px = 10px */
@@ -91,6 +89,9 @@ h3{
 we reused these codes anywhere else */
 
 
+/* Step 3 */
+/* Complete a component of the site */
+/* The links */
 
 
 

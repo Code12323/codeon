@@ -314,18 +314,38 @@ color: #fff;
     transition: 0.3s;
 } 
 
+
 /* button white and hover*/
-.btn-white{
+.btn--white{
     background: #fff;
     color: var(--color-headings);
+    border: solid 1px;
 }
 
-.btn-white:hover{
+.btn--white:hover{
     background: black;
+    color: #fff;
     transition: 0.3s;
 } 
 
-/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

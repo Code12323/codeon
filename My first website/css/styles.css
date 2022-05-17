@@ -115,7 +115,12 @@ a{
 
 }
 
-
+@media screen and (min-width:1024px) {
+    .link{
+        font-size: 1.5rem;
+        
+    }
+}
 
 
 

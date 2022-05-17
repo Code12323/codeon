@@ -172,11 +172,51 @@ AND FIND IT. THATS IT. */
     }
 }
 
-/* */
+/* List component */
+/* - setting the list style to none, 
+gets rid of the default bullet points */
 
+/* - padding left we set to zero 
+to get rid of the padding which all browsers 
+are applied to by default */
 
+.list{
+    list-style: none;
+    padding-left: 0;
+    color: var(--color-headings);
+}
 
+/* this means, if we have a list item
+inside the list--inline we want to display
+it as inline-block, 
+(if we set this to inline only 
+we wont be able to give it margin) */
+.list--inline .list__item{
+    display: inline-block;
+    margin-right: 2rem;
+}
 
+/* the list style image is special code 
+used on svg images. */
+/* just set the list style image to a 
+image and then apply that class to the 
+<ul> and all the decending <li> items 
+will have that image as the bullet point */
+
+/* we applied 3rem left padding bc, if we dont
+apply it, the ticks are off the screen. */
+.list--tick{
+    list-style-image: url(../images/tick.svg);
+padding-left: 3rem;
+}
+
+/* should we change the padding or the 
+margin?
+experimenting is your friend paul. */
+.list--tick .list__item{
+padding-left: .5rem;
+bottom margin: 1rem;
+}
 
 
 

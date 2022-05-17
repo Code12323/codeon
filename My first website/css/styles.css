@@ -16,6 +16,16 @@ codes */
     --color-body: #918ca4;
 }
 
+
+/* we select all elements, and all elements which are inserted
+after and before them, and we set the box-sizing to border box
+*/
+*, 
+*::after, 
+*::before {
+box-sizing: border-box;
+}
+
 /* Step 2 define the typography of this site */
 /* text colour, font-family, font-size 
 of the body, heading elements */
@@ -273,11 +283,13 @@ we change the inline-block to inline-flex */
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 1rem 0;
     padding: 2rem 3rem;
     border: 0;
     border-radius: 40px;
     white-space: nowrap;
     cursor: pointer;
+    text-align: center;
 }
 
 /* button skin */
@@ -328,6 +340,18 @@ color: #fff;
     transition: 0.3s;
 } 
 
+/* a block button is a button which takes up the 
+entire width space of the screen */
+.btn--block{
+  width: 100%;
+  display: inline-block;
+}
+
+@media screen and (min-width:1024px) {
+    .btn {
+        font-size: 1.5rem;
+    }
+}
 
 
 

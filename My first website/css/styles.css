@@ -145,6 +145,7 @@ AND FIND IT. THATS IT. */
     font-size: 2rem;
 }
 
+/* These are the skins */
 .badge--primary{
     background: var(--color-primary);
     color: #fff;
@@ -159,6 +160,7 @@ AND FIND IT. THATS IT. */
     font-size: 1.6rem;
 }
 
+/* this is the media query */
 @media screen and (min-width: 1024px) {
     .badge{
         font-size: 1.5rem;
@@ -170,7 +172,7 @@ AND FIND IT. THATS IT. */
     }
 }
 
-
+/* */
 
 
 

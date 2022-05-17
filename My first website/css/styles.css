@@ -122,6 +122,87 @@ a{
     }
 }
 
+/* Step 4 */
+/* Focusing on another component */
+/* the badge component */
+
+/* in web development, see the smallest
+thing you can build in the site, then 
+start from there... */
+
+/* what gives us the exact values for 
+font sizes, padding, margin, is 
+EXPERIMENTATION... JUST EXPERIMENT YOURSELF
+AND FIND IT. THATS IT. */
+
+
+/* this is the structure of the badge */
+.badge{
+    border-radius: 20px;
+    padding: .5rem 2rem;
+    font-weight: bold;
+    white-space: nowrap;
+    font-size: 2rem;
+}
+
+.badge--primary{
+    background: var(--color-primary);
+    color: #fff;
+}
+
+.badge--secondary{
+    background: var(--color-secondary);
+    color: #fff;
+}
+
+.badge--small{
+    font-size: 1.6rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .badge{
+        font-size: 1.5rem;
+
+    }
+
+    .badge--small{
+        font-size: 1.2rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

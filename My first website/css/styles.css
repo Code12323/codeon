@@ -353,7 +353,54 @@ entire width space of the screen */
     }
 }
  
-/* next is lesson15    */
+
+/* step 8 */
+/* input component */
+/* we set the outline to zero, to remove the browser border 
+on input elements. */
+.input{
+    padding: 1.5rem 3.5rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    outline: 0;
+    color: var(--color-headings);
+    font-size: 2rem;
+}
+
+/* This is a special code for placeholders */
+::placeholder{
+    color: #cdcbd7;
+}
+
+@media screen and (min-width:1024px) {
+    .input{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

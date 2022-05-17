@@ -217,91 +217,18 @@ experimenting is your friend paul. */
 padding-left: .5rem;
 bottom margin: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
+/* you might not have a full plan 
+of how you are going to make things 
+work, when you start, but as you start
+you want to put effort in solving, problms
+which come across you. */
+
+@media screen and (min-width: 1024px){
+    .list--tick .list__item{
+        padding-left: 0;
+    }
+}
 
 
 

@@ -15,6 +15,7 @@ codes */
     --color-headings: #1b0760;
     --color-body: #918ca4;
     --color-border: #ccc;
+    --border-radius: 30px;
 }
 
 
@@ -362,7 +363,7 @@ on input elements. */
 .input{
     padding: 1.5rem 3.5rem;
     border: 1px solid var(--color-headings);
-    border-radius: 30px;
+    border-radius: 1px solid var(--border-radius);
     outline: 0;
     color: var(--color-headings);
     font-size: 2rem;
@@ -373,10 +374,27 @@ on input elements. */
     color: #cdcbd7;
 }
 
-
+/* we set display to flex, to make the 
+input component grow and take all the available 
+space */
 .input-group{
     border: 1px solid var(--color-border);
-    border-radius: 30px;
+    border-radius: var(--border-radius);
+    display: flex;
+}
+
+/* This input component now is a flex item since 
+we set the parent div to display flex. 
+when we set the flex grow to 1 it means take all the 
+available space */
+.input-group .input{
+    border: 0;
+    flex-grow: 1;
+    padding: 1.5rem 1rem;
+}
+
+.input-group .btn{
+    margin: 4px;
 }
 
 
@@ -386,11 +404,7 @@ on input elements. */
     }
 }
 
-
-/* lesson 16 */
-/* Step 9 */
-/* Input Groups component */
-
+ /* Lesson 16 done */
 
 
 

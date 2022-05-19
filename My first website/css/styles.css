@@ -73,8 +73,8 @@ and then 1024px (desktop) */
 /* Font-sizes are larger for mobile 
 screens, and font sizes are smaller for 
 tablet and desktop screens, 
-(idea, here is as the screen gets larger
-the font-size, more content can fit in
+(idea, here is as the screen gets larger, 
+more content can fit in
 so the font size gets smaller) */
 
 @media screen and (min-width: 1024px){

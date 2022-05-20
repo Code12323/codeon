@@ -404,9 +404,42 @@ available space */
     }
 }
 
- /* Implimenting a card component */
-  
+ /* Card */
+ .card {
+     border-radius: 7px;
+     /* first two zeros are for horizontal and vertical offset, 20px is for blurring
+     the shadow, 10px for spreading the shadow, and then we have the colour. */
+     box-shadow: 0 0 20px 10px #f3f3f3;
+     /* the point we gave the whole .card div the border radius, we made the corners 
+     round.
+     and the point we gave the .card__header div a background colour, it grew larger
+     than its parent, .card div, so it lost the round corners.
+     THAT IS CALLED OVERFLOW. 
+     so we set the overflow to hidden. */
+     overflow: hidden;
 
+ }
+  
+ /* think of the component like a human. 
+ it has the skelaton, the flesh. focus on the skelaton first
+ come to flesh later. */
+
+ .card__header, 
+ .card__body{
+     padding: 2rem 3rem;
+ }
+
+ .card--primary .card__header {
+   background: var(--color-primary);
+   color: #fff;
+ }
+
+ .card--secondary .card__header {
+    background: var(--color-secondary);
+    color: #fff;
+  }
+ 
+  /*  */
 
 
 

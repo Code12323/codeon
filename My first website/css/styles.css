@@ -479,6 +479,8 @@ you... */
     margin-bottom: 2rem;
 }
 
+.plan--popular 
+
 /* Notice how we only changed the font-size for this media 
 query. */
 @media screen and (min-width: 1024px) {

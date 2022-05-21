@@ -170,6 +170,7 @@ AND FIND IT. THATS IT. */
 
 .badge--small{
     font-size: 1.6rem;
+    padding: .5rem 1.5rem;
 }
 
 /* this is the media query */
@@ -439,12 +440,71 @@ available space */
     color: #fff;
   }
  
+.card--secondary .badge--secondary {
+   background: #02cdf1;
+}
+
   /* Plans */
 .plan__name{
     color: #fff;
     margin: 0;
     font-weight: 500;
+    font-size: 2.4rem;
 }
+
+.plan__price{
+    font-size: 6rem;
+}
+
+.plan__billing-cycle{
+    font-size: 2.4rem;
+    font-weight: 300;
+    opacity: .8;
+}
+
+/* How the hell do anyone remember all these numbers???
+well you dont need to remember them.
+Just know what you are trying to build and in the chrome 
+dev tools you can experiment and get the values which suits
+you... */
+
+.plan__description {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.plan .list__item {
+    margin-bottom: 2rem;
+}
+
+/* Notice how we only changed the font-size for this media 
+query. */
+@media screen and (min-width: 1024px) {
+    .plan__name{
+        font-size: 1.4rem;
+    }
+
+    .plan__price{
+        font-size: 5rem;
+    }
+
+    .plan__billing-cycle{
+        font-size: 1.6rem;
+    }
+
+    .plan__description {
+        font-size: 1.7rem;
+    }
+}
+
+/* lessson 18 done */
+
+
+
+
+
 
 
 

@@ -483,22 +483,23 @@ you... */
 
 /* Notice how we only changed the font-size for this media 
 query. */
+
 @media screen and (min-width: 1024px) {
-    .plan__name{
+    .plan__name {
         font-size: 1.4rem;
     }
 
-    .plan__price{
+    .plan__price {
         font-size: 5rem;
     }
 
-    .plan__billing-cycle{
+    .plan__billing-cycle {
         font-size: 1.6rem;
     }
 
     .plan__description {
         font-size: 1.7rem;
-    }
+    } 
 }
 
 /* popular badge */

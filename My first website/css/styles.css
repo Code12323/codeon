@@ -500,7 +500,9 @@ query. */
 }
 
 /* popular badge */
-
+ /* the text the colours, the background
+ colour can be set with html and css, but for anything 
+ extra, we use images and svg images */
 
 
 

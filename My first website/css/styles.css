@@ -484,6 +484,30 @@ you... */
 /* Notice how we only changed the font-size for this media 
 query. */
 
+
+/*relative and absolute positioning*/
+/*to move a decendent element with absolute potioning
+the parent */
+.plan--popular .card__header{
+    position: relative;
+}
+
+/* before the card header of the plan popular */
+.plan--popular .card__header::before {
+    content: url(../images/popular.svg);
+    width: 40px;
+    /* img element is a inline element, so we change the display 
+    to inline block */
+    display: inline-block;
+    position: absolute;
+     /* with negative pixels here we are moving the popular image 
+     upwards */
+    top: -6px;
+    /* take 5% width from the right 
+    (take 5% from the whole width of the card)  */
+    right: 5%;
+}
+
 @media screen and (min-width: 1024px) {
     .plan__name {
         font-size: 1.4rem;
@@ -506,6 +530,8 @@ query. */
  /* the text the colours, the background
  colour can be set with html and css, but for anything 
  extra, we use images and svg images */
+
+/* media component */
 
 
 

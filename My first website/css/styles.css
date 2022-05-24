@@ -574,9 +574,13 @@ in css with these codes*/
 /*in web developing first we create 
 components, then we create sections.*/
 
+.quote__author{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: normal;
+}
 
-
-
+/*06:04 of lesson 21*/
 
 
 

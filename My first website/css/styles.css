@@ -254,12 +254,21 @@ which come across you. */
     height: 40px;
 }
 
+.icon--small{
+    width: 30px;
+    height: 30px;
+}
+ 
 /* the fill property only applies to 
 svg images*/
 .icon--primary{
     fill: var(--color-primary);
 }
 
+.icon--white{
+    fill: #fff;
+}
+  
 /* spans are inline elements 
 width and height property does not apply 
 to inline elements.
@@ -281,7 +290,10 @@ we change the inline-block to inline-flex */
     align-items: center;
 }
 
+.icon-container--accent{
+    background: var(--color-accent);
 
+}
 /* step 7 */
 /* The Buttons */
 
@@ -631,6 +643,49 @@ then build the entire section... */
         grid-template-columns: repeat(3, 1fr);
     }    
     }
+
+
+/* Testimonials */
+
+.testimonial {
+    padding: 3rem;
+}
+
+.testimonial__image {
+    position: relative;
+}
+
+.testimonial__image {
+    width: 100%;
+}
+
+.testimonial__image > .icon-container {
+    position: absolute;
+    top: 3rem;
+    right: -32;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial .quote,
+    .testimonial .quote__author
+    {
+        font-size: 2.4rem;
+    }
+
+    .testimonial .quote {
+        margin-left: 6rem;
+    }
+}
+ 
+
+
+
+
+
+
+
+
+
 
 
 

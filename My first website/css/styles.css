@@ -655,14 +655,14 @@ then build the entire section... */
     position: relative;
 }
 
-.testimonial__image {
+.testimonial__image > img {
     width: 100%;
 }
 
 .testimonial__image > .icon-container {
     position: absolute;
     top: 3rem;
-    right: -32;
+    right: -3rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -677,6 +677,7 @@ then build the entire section... */
     }
 }
  
+
 
 
 

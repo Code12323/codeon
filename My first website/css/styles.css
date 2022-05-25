@@ -1,3 +1,6 @@
+/* Either get the developer job or die trying
+i wont be alive as a loser NO WAY!!! */
+
 /* DRY principal in coding 
 Dont repeat yourself */
 /* In object oriented css we seperate
@@ -578,13 +581,41 @@ components, then we create sections.*/
     font-size: 3rem;
     font-weight: 500;
     font-style: normal;
+    margin-bottom: 0;
 }
 
-/*06:04 of lesson 21*/
 
+/* why we have these codes is because we are trying our 
+page to look like the photoshop model... 
+without a model you dont build a page...
+Have the complete picture of what you want to build...
+build the components... 
+then build the entire section... */
+.quote__organization{
+    color: var(--color-headings);
+    opacity: .4;
+    font-size: 2rem;
+    font-style: normal;
+}
 
+.quote__line {
+    position: relative;
+    bottom: 10px;
+}
 
+@media screen and (min-width: 1024px) {
+    .quote{
+        font-size: 2rem;
+    }
+    .quote__author {
+        font-size: 2.4rem;
+    }
+    .quote__organization {
+        font-size: 1.6rem;
+    }
+}
 
+/* Grid Component */
 
 
 

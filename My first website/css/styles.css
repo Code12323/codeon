@@ -359,6 +359,12 @@ color: #fff;
     transition: 0.3s;
 } 
 
+/* reusable code for adding padding to a wider button */
+.btn-streched{
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
 /* a block button is a button which takes up the 
 entire width space of the screen */
 .btn--block{
@@ -628,9 +634,24 @@ then build the entire section... */
 }
 
 /* Grid Component */
+
+.gird{
+    display: grid;
+}
+
 .grid{
     display: grid;
 }
+
+@media screen and (min-width: 768px) {
+    .grid--1x2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+/* repeat 2x1fr means take the entire width of the screen 
+and slice it in half.
+1fr means entire widht of the screen.
+2x1fr means 2x entire width of the screen. */
 
 @media screen and (min-width: 768px) {
 .grid--1x2 {
@@ -641,12 +662,24 @@ then build the entire section... */
 @media screen and (min-width: 1024px) {
     .grid--1x3 {
         grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .grid--1x3 {
+        grid-template-columns: repeat(3, 1fr);
     }    
     }
+/* Testimonial section */
+.testimonial {
+    padding: 3rem;
+}
 
+.testimonial__image {
+    width: 100%;
+}
 
 /* Testimonials */
-
 .testimonial {
     padding: 3rem;
 }
@@ -677,94 +710,48 @@ then build the entire section... */
     }
 }
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* callout */
+.callout{
+    padding: 4rem;
+    border-radius: 5px;
+}
+
+.callout--primary{
+    background: var(--color-primary);
+    color: white;
+}
+
+.callout__heading{
+    color: #fff;
+    margin-top: 0;
+    font-size: 3rem;
+}
+
+.callout .btn{
+    /* if we have display : grid; we have justify items
+    for horizontal alignment, and allign items for 
+    vertical alignment...
+    default value of these properties is strech..
+    Here we use justify self for horizontal alignment
+    and align self for vertical allignment... */
+    justify-self: center;
+    align-self: center;
+}
+
+/* we set this text align for mobiles */
+.callout__content{
+    text-align: center;
+}
+
+/* for tablets we set the text align to left */
+@media screen and (min-width: 768px) {
+    .callout__content{
+        text-align: left;
+    }
+    .callout .btn {
+        
+    } 
+}
 
 
 
@@ -772,5 +759,21 @@ then build the entire section... */
 
 
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
